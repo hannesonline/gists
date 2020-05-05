@@ -38,7 +38,7 @@ Configuring Apache
 ==================
     Alias /meinewelt "C:/Workspace/meinewelt"
     <Directory "C:/Workspace/meinewelt">
-    	Allow from all
+    	Require all granted
     	AllowOverride All
     </Directory>
     
